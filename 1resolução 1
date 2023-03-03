@@ -1,0 +1,13 @@
+1: Solicitar ao cliente o bilhete do filme.
+2: Conferir data e hora do filme no bilhete.
+SE data/hora > data/hora do filme + 30 minutos Então
+3: Informar ao cliente que o tempo limite para foi exedido.
+4: Não permitir a entrada.
+Senão Se data/hora do filme - 30 minutos Então
+5: Informar ao cliente que a sala do filme ainda não foi liberadapara entrada.
+6: Não permitir a entrada.
+Senão
+7: Permitir a entrada.
+8: Indicar ao cliente onde fica a sala do filme.
+Fim-Se
+Fim
