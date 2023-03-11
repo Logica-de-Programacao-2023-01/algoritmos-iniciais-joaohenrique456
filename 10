@@ -1,0 +1,13 @@
+calculo de media ponderada
+
+1: leia lista
+2: leia pesos
+3: var somatorio_elementos = 0
+4: var somatorio_pesos = 0 
+5: para cada elemento da lista faça:
+6:   somatorio_elementos = somatorio_elementos + (elemento * peso_correspondente)
+7: para cada peso dos pesos faça:
+8:   somaoria_pesos = somatoria_pesos + peso
+9: somatorio_elementos = somatorio_elementos / somatorio_pesos
+escreva resultado
+Fim
